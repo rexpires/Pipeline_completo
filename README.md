@@ -26,7 +26,7 @@ Neste projeto utilizei um banco de dados "vivo" (atualizado constantemente) de u
 
 ### 4. Transformação dos dados no Snowflake com o DBT 
    - Utilizei o dbt para transformar os dados dentro do DW.
-   - Minha ideia para esta etapa foi criar uma camada analítica do banco de dados para que usuários (analistas e cientistas de dados, gestores, etc) possam consultar os dados. Portanto dupliquei a camada origem criando a stage, para que haja um desacoplamento dos dados originais e não comprometê-los. A partir da stage, criei as camadas/tabelas dimensões, a fato e as análises.
+   - A ideia para esta etapa foi criar uma camada analítica do banco de dados para que usuários (analistas e cientistas de dados, gestores, etc) possam consultar os dados. Portanto dupliquei a camada origem criando a stage, para que haja um desacoplamento dos dados originais e não comprometê-los. A partir da stage, criei as camadas/tabelas dimensões, a fato e as análises.
      
 ![image](https://github.com/rexpires/Pipeline_completo/assets/105373494/795442eb-dc7b-45a1-a6c8-0f1713816eb5)
 
