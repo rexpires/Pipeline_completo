@@ -61,7 +61,7 @@ Neste projeto utilizei um banco de dados "vivo" (atualizado constantemente) de u
 
 ### 6. Visualização dos dados: criação de um dashboard com o Looker Studio.
 
-   - Embora o foco do projeto não seja exatamente a visualização dos dados e sim as etapas realizadas até esta etapa, optei por criar um dashboard simples no Looker Studio para visualização de alguns dados do projeto.  
+   - Embora o foco do projeto não seja exatamente a visualização dos dados e sim as etapas realizadas anteriormente, optei por criar um dashboard simples no Looker Studio para visualização de alguns dados do projeto.  
    - Configurei o Looker Studio para conectá-lo ao Snowflake.
    - Dashboard realizado:
      
